@@ -6,6 +6,7 @@ const dbconfig=require('./db');
 const userrouter = require('./router/userrouter');
 const roomroute=require('./router/roomrouter');
 const bookingrouter=require('./router/bookingrouter');
+var cors = require('cors')
 
 app.use(express.json());
 app.use(cors({ 
